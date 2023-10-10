@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Metro Ticket Reservation System</title>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+   <nav>
+    <a href="index.html" class="btn">Home</a>
+    <a href="about-us.html" class="btn">About</a>
+    <a href="contact-us.html" class="btn">Contact Us</a>
+   </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <center>
+            <div class="inquiry">
+                <div class="title">
+                    Book your ticket
+                </div>
+                <form action="bookingdetails.html" method="GET">
+                    <label for="from">From:</label> 
+                    <select id="from" name="from">
+                        <option >Gurukul</option>
+                        <option >Doordarshan Kendra</option>
+                        <option >Apparel Park</option>
+                        <option >Thaltej</option>
+                    </select>
+                    <label for="to">To:</label> 
+                    <select id="to" name="to">
+                        <option >Doordarshan Kendra</option>
+                        <option >Thaltej</option>
+                        <option >Apparel Park</option>
+                        <option >Gurukul</option>
+                    </select>
+                    <label for="day">Date:</label>
+                    <input type="date" id="day" name="day">
+                    <input type="submit">
+                </form>
+           
+            </div>
+        </center>
+        </section>
+    </main>
+  
+</body>
+
+
+</html>
